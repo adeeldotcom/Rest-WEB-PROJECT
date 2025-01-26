@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-BBQ Restaurant</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/home.css">
+
+</head>
+
+<body>
+  <nav class="custom-nav">
+    <ul class="sidebar">
+      <li onclick="hidesidebar()">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+            fill="black">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg>
+        </a>
+      </li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="Aboutus.html">AboutUs</a></li>
+      <li><a href="Menu.HTML">Menu</a></li>
+      <li><a href="contactus.html">ContactUs</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+
+    </ul>
+    <ul class="horizontal-bar">
+      <li class="logo-img"><img src="./images/logo-free-img.png" alt="Logo"></li>
+      <li class="hideon"><a href="home.html">Home</a></li>
+      <li class="hideon"><a href="Aboutus.html">AboutUs</a></li>
+      <li class="hideon"><a href="Menu.HTML">Menu</a></li>
+      <li class="hideon"><a href="contactus.html">ContactUs</a></li>
+      <li class="hideon"><a href="feedback.html">Feedback</a></li>
+      <li class="hideon"><a href="reserve.html" id="button-custom1"  >Reservation</a></li>
+      <li onclick="showsidebar()" class="menu-button">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+            fill="white">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg></a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="intro">
+    <video id="introVideo" autoplay muted loop
+      style="display:none; position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;">
+      <source src="./images/vedio/steak.mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="content">
+      <img src="./images/local/divider-free-img-1.png" alt="Divider">
+
+      <h1>Best in Lahore, Pakistan</h1>
+      <h2>Steaks & BBQ</h2>
+      <p>Indulge in the tantalizing aroma of perfectly smoked meats at our BBQ restaurant.mbark on a mouthwatering
+        journey through our diverse BBQ menu, featuring tender ribs, juicy brisket, and flavorful pulled pork.</p>
+      <div class="contentbutton">
+        <li><a href="reserve.html" id="cbutton1">Reservation</a></li>
+        <li><a href="Menu.HTML" id="cbutton2">Explore Menu</a></li>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="about">
+    <div class="left">
+      
+      <h1>The BBQ Place.</h1>
+      <img src="./images/local/divider-free-img-1.png" alt="Divider" id="dividerimg">
+      <p>Discover why our BBQ has earned accolades for its bold flavors and dedication to authentic barbecue
+        traditions.Each dish at our BBQ joint is crafted with passion, using only the finest ingredients and
+        time-honored techniques.
+
+      </p>
+      <a href="reserve.html" id="aboutbutton">Reservation</a>
+    </div>
+    <div class="right">
+      <img src="./images/dishes/dish1.jpg" alt="dish1">
+      <img src="./images/dishes/dish2.jpg" alt="Dish2">
+    </div>
+  </section>
+
+  <section id="happyhours">
+    <div class="content">
+      <img src="./images/logo/logo1.png" alt="Logo">
+      <h3>Enjoy 50% Off On All Drinks</h3>
+      <h1>Happy Hours</h1>
+      <h4>Every Thursday, 4PM-7PM</h4>
+      <div class="contentbutton">
+        <a href="reserve.html" id="hbutton">Reserve A Table</a>
+      </div>
+    </div>
+  </section>
+  <section id="reviews">
+    <h1>They All Loved Our Food</h1>
+    <img src="./images/local/divider-free-img-1.png">
+    <p>Food lovers embrace the art of dining with an unmatched passion, savoring each bite as a celebration of
+      flavor.For them, every meal is a moment of joy, where flavors dance on their palate and memories are etched with
+      each dish.</p>
+    <div class="views">
+      <ul>
+        <li>"Most amazing I ever had!!"<br><img src="./images/clients/client1-free-img.png" class="client-img" alt="client img"> - Laura
+        </li>
+        <li>"Amazing taste, and juicy steaks!! Best ever!!"<br><img src="./images/clients/client2-free-img.png" class="client-img"
+            alt="client img"> - Harold Z</li>
+        <li>"I always visit here, and they always surprise me."<br><img src="./images/clients/client3-free-img.png" class="client-img"
+            alt="client img"> - Laura Petracio</li>
+        <li>"A must visit for every steak lover"<br><img src="./images/clients/client4-free-img.png" class="client-img" alt="client img">
+          - Bryan G</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="last">
+    <div class="help">
+      <h1>Lets Eat.</h1>
+      <img src="./images/local/divider-free-img-1.png" alt="divider">
+      <p> Embark on a mouthwatering journey through our diverse BBQ menu, featuring tender ribs, juicy brisket, and
+        flavorful pulled pork.Reserve your spot today for an unforgettable dining journey filled with delicious flavors.
+      </p>
+      <a href="reserve.html" id="lastbutton">Reserve A Table</a>
+      <h3>Or Call Us:123 456 789</h3>
+    </div>
+    <footer>
+      <p id="para1">Copyright &copy; 2024 BBQ Restaurant</p>
+      <p id="para2">Powered by BBQ Restaurant</p>
+    </footer>
+  </section>
+  <script>
+    setTimeout(function () {
+      var video = document.getElementById('introVideo');
+      video.style.display = 'block';
+      video.play();
+    }, 3000); // 30 seconds in milliseconds
+  </script>
+  <script src="./js/navbar.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

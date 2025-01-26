@@ -1,0 +1,137 @@
+
+.hideon {
+    margin-right: 31px;
+}
+
+.logo-img {
+    margin-left: 60px;
+    padding-top: 11px;
+}
+
+.horizontal-bar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-nav {
+    z-index: 1000;
+
+    position: relative;
+}
+
+.custom-nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+.custom-nav li {
+    height: 50px;
+}
+
+.custom-nav a {
+    height: 135%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 19px;
+}
+
+.custom-nav li a:hover {
+    color:  #E49B0F;    
+    text-decoration: none
+}
+
+.custom-nav li:first-child {
+    margin-right: auto;
+}
+
+.custom-nav .sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    z-index: 2000;
+    background-color:rgba(197, 194, 118, 0.404);    
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #222a30;
+    backdrop-filter: blur(10px);
+
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.menu-button {
+    display: none;
+    cursor: pointer;
+
+    z-index: 1001;
+    /* Ensures it is above other elements */
+}
+
+.menu-button a svg {
+    fill: black;
+}
+
+#button-custom1 {
+    border: none;
+    border-radius: 25px;
+    background-color: #E49B0F;
+    font-family: 'Poppins';
+    font-size: 19px;
+    color: white;
+    padding: 24px 19px;
+    width: 100%;
+    max-width: 100%;
+    margin: 4px 0px;
+    height: 32px;
+    margin-top: 10px
+}
+
+@media (max-width: 1050px) {
+    .hideon {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .custom-nav li {
+        height: 37px;
+    }
+
+    .logo-img {
+        margin-left: 24px;
+        padding-top: 11px;
+    }
+
+    .logo-img img {
+        width: 117px;
+    }
+}
+
+
+
+
+

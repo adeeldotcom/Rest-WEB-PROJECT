@@ -1,0 +1,547 @@
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#intro {
+    position: relative;
+    height: 635px;
+    width: 100%;
+    background-image: url("../images/dishes/Barbecue-dish-item-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+
+.content {
+    text-align: center;
+    z-index: 2;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+}
+
+.content h1 {
+    color: #E49B0F;
+    font-size: 34px;
+}
+
+.content h2 {
+    color: white;
+    font-size: 100px;
+    margin: 17px 18px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+}
+
+.content p {
+    color: white;
+    text-align: center;
+    padding: 42px 280px;
+}
+
+.contentbutton {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    margin: 23px 0;
+    list-style: none;
+}
+
+.contentbutton li {
+    display: inline-block;
+}
+
+.contentbutton a {
+    text-decoration: none;
+    padding: 12px 31px;
+    color: white;
+    background-color: #E49B0F;
+    border-radius: 21px;
+    font-family: 'Poppins';
+    font-size: 19px;
+}
+
+#cbutton2 {
+    background-color: transparent;
+    border: 1px solid #E49B0F;
+    color: white;
+}
+
+#cbutton2:hover {
+    background-color: #E49B0F;
+}
+
+#cbutton1:hover {
+    background-color: #f17006;
+}
+
+#about {
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    margin-top: -12px;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+#about .left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#about .left #logoimg {
+    width: 61px;
+    height: 61px;
+    margin-bottom: -6px;
+    padding: 4px 85px;
+}
+
+#about .left h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    padding: 4px 85px;
+}
+
+#about .left #dividerimg {
+    width: 370px;
+    height: 44px;
+    margin-bottom: 11px;
+    padding: 4px 85px;
+}
+
+#about .left p {
+    font-size: 19px;
+    padding: 4px 85px;
+    margin-bottom: 46px;
+}
+
+#about .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .right img {
+    width: 34%;
+    height: auto;
+    margin: 0 10px;
+}
+
+#aboutbutton {
+    border: none;
+    border-radius: 21px;
+    background-color: #E49B0F;
+    font-family: 'Poppins';
+    font-size: 19px;
+    color: white;
+    padding: 13px 37px;
+    text-decoration: none;
+    margin-left: 76px
+}
+
+#aboutbutton:hover {
+    background-color: #f17006;
+}
+
+#happyhours {
+    position: relative;
+    height: 635px;
+    width: 100%;
+    background-image: url("../images/local/people.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    /*  make the background fixed */
+}
+
+#happyhours::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+#happyhours .content {
+    text-align: center;
+    z-index: 2;
+    color: white;
+    margin-bottom: 20px;
+    /* Adjust margin to create a gap between headings and button */
+}
+
+#happyhours img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /* Adjust margin to create a gap between image and headings */
+}
+
+#happyhours h3,
+#happyhours h1,
+#happyhours h4 {
+    margin: 50px 0;
+}
+
+#happyhours h1 {
+    font-size: 50px;
+}
+
+#happyhours h3 {
+    font-size: 32px;
+    font-family: serif;
+}
+
+#happyhours h4 {
+    font-size: 24px;
+}
+
+.contentbutton {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+
+.contentbutton a {
+    text-decoration: none;
+    padding: 13px 37px;
+    color: white;
+    background-color: #E49B0F;
+    border-radius: 21px;
+    font-family: 'Poppins';
+    font-size: 19px;
+}
+
+#hbutton:hover {
+    background-color: #f17006;
+}
+
+#reviews {
+    text-align: center;
+
+}
+
+#reviews h1 {
+    font-size: 42px;
+    margin-top: 66px;
+}
+
+#reviews p {
+    padding: 11px 266px;
+    font-size: 17px;
+}
+
+.views ul {
+    display: flex;
+    list-style: none;
+    padding: 23px 26px;
+
+}
+
+.views ul li {
+    padding: 14px 44px;
+    font-size: 22px;
+}
+
+
+
+#last {
+    position: relative;
+    height: 635px;
+    width: 100%;
+    background-image: url("../images/last.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#last::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.help h1,
+.help img,
+.help p,
+.help h3 {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    z-index: 2;
+    position: relative;
+}
+
+.help h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.help h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.help p {
+    color: white;
+    padding: 0px 279px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+#lastbutton {
+    border: none;
+    border-radius: 21px;
+    background-color: #E49B0F;
+    font-family: 'Poppins';
+    font-size: 19px;
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+
+}
+
+#lastbutton {
+    border: none;
+    border-radius: 21px;
+    background-color: #E49B0F;
+    font-family: 'Poppins';
+    font-size: 19px;
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+#lastbutton:hover {
+    background-color: #f17006;
+}
+
+footer {
+    width: 97%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding: 30px 39px;
+}
+
+.client-img {
+    width: 83px;
+    height: 86px;
+    margin-top: 21px;
+}
+
+
+
+/* responsiveness */
+@media (min-width: 300px) and (max-width: 600px) {
+
+    #reviews p {
+        padding: 11px 46px;
+    }
+
+    .views ul {
+        padding: 19px 3px;
+        display: block;
+    }
+
+    .views ul li {
+        padding: 11px 34px;
+        font-size: 15px;
+    }
+
+    .client-img {
+
+        height: 79px;
+        margin-top: 17px;
+    }
+
+    #reviews h1 {
+        font-size: 32px;
+
+    }
+
+    .content p {
+     font-size: 16px;
+        padding: 33px 17px;
+    }
+    .content h2 {
+      
+        font-size: 66px;
+        margin: 6px 9px;
+    }
+    .content h1 {
+        font-size: 22px;
+    }
+    .content img {
+        width: 188px;
+    }
+
+    .contentbutton a {
+        
+        padding: 13px 20px;
+        font-size: 17px;
+    }
+    #happyhours img {
+        width: 77px;
+    }
+    #about {
+       height: 82vh;
+        display: block;
+        padding: 12px;
+    
+    }
+    #about .left #dividerimg {
+        width: 215px;
+        height: 41px;
+        margin-bottom: 11px;
+        padding: 2px 24px;
+        
+    }
+    #about .left p {
+        font-size: 16px;
+        padding: 4px 18px;
+        margin-bottom: 36px;
+    }
+    #about .left h1 {
+        font-size: 37px;
+        margin-bottom: 20px;
+        padding: 4px 26px;
+   
+    }
+    #aboutbutton {
+       
+        font-size: 16px;
+        padding: 13px 30px;
+        margin-left: 21px;
+    }
+    #about .right{
+        display: none;
+    }
+    #happyhours h1 {
+        font-size: 39px;
+    }
+    #happyhours h3 {
+        font-size: 22px;
+      
+    }
+    #happyhours h4 {
+        font-size: 21px;
+    }
+    #happyhours {
+       
+        height: 541px;}
+}
+
+
+/* Footer  */
+@media (min-width: 300px) and (max-width: 600px) {
+    .help p {
+        color: white;
+        padding: 0px 41px;
+        font-size: 16px;
+    }
+
+    .help h1 {
+
+        font-size: 40px;
+    }
+
+    .help h3 {
+
+        font-size: 24px;
+    }
+
+    footer p {
+
+        padding: 18px 11px;
+    }
+
+    #lastbutton {
+        font-size: 17px;
+        padding: 12px 16px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .help p {
+        padding: 0px 137px;
+    }
+}
